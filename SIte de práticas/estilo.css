@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    padding: 0;
+    }
+header {
+    background-color: rgb(88, 90, 88);
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+    height: 88px;
+    margin-left: 50px;
+    background-image: url('Teste2/Logo_EasyConstrul.png');
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff; /* Cor de fundo do submenu */
+    min-width: 120px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333; /* Cor do texto do submenu */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #880101;
+    text-decoration: none;
+}
+/*.imagem-ao-lado {
+    background-image: url('Teste2/Logo.png');
+    width: 100px;
+    height: 88px;
+    display: inline-block;
+}*/
+h1 {
+        color: blue;
+}
